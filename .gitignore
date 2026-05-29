@@ -1,0 +1,5 @@
+__pycache__/ # Ignore Python Cache files
+*.pyc # Ignore compiled Python files
+*.pyo # Ignore optimized Python files
+*.pyd # Ignore Python dynamic library files
+.pytest_cache/ # Ignore pytest cache files
