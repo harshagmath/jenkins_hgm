@@ -9,7 +9,7 @@ pipeline{
         }
         stage('Run Tests'){
             steps{
-                sh 'pytest ./calci_test/test_app.py -v'
+                sh 'python3 -m pytest ./calci_test/test_app.py -v'
             }
         }
     }
