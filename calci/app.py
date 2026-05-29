@@ -11,8 +11,3 @@ def divide(a,b): #Division function
     if b == 0:
         return "Division by 0 is not possible."
     return a/b
-
-def modulus(a,b): #Modulus function
-    if b == 0:
-        return "Modulus by 0 is not possible."
-    return a%b
